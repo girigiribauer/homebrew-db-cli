@@ -3,7 +3,7 @@ require 'formula'
 REPOSITORY_URL='https://github.com/girigiribauer/db-cli'
 HOMEBREW_DBCLI_VERSION='0.1.24'
 
-class DBCli < Formula
+class DbCli < Formula
   desc '`db` command line tools (Docker based)'
   homepage REPOSITORY_URL
   url "#{REPOSITORY_URL}/releases/download/v#{HOMEBREW_DBCLI_VERSION}/db-darwin-amd64.tar.gz", :tag => "v#{HOMEBREW_DBCLI_VERSION}"
